@@ -1,35 +1,3 @@
-p {
-	&.block-caption {
-		padding-left: 0;
-		font-size: $block-caption-size;
-		color: $block-caption-color;
-	}
-	&.book-caption {
-		padding-left: 0;
-		font-size: $book-caption-size;
-	}
-	&.annotation {
-		padding-left: 0;
-	}
-}
-
-p {
-	&.block-caption-right {
-		padding-right: 0;
-		padding-left: 20px;
-		font-size: $block-caption-size;
-		color: $block-caption-color;
-	}
-	&.book-caption-right {
-		padding-right: 0;
-		padding-left: 20px;
-		font-size: $book-caption-size;
-	}
-	&.annotation-right {
-		padding-right: 0;
-		padding-left: 20px;
-	}
-}
 
  table.button.book-block-button table td  {
     text-align: left;
@@ -46,7 +14,34 @@ p {
 
 }
 
-.columns.book-block-description-right {
-	    padding-left: 40px;
-	    padding-right: 0;
+th.large-8.last.columns.book-description-left{
+    padding-left: 40px;
+    padding-right: 0;
 }
+th.large-8.last.columns.book-description-right{
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.columns.book-image-right.book-image {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img.book-image {
+	width: 200px;
+	max-width: 200px;
+}
+th.large-4.first.book-image-right {
+	padding-left: 0;
+}
+
+th.large-4.first.book-image-left {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+th .block-caption {
+		font-size: $block-caption-size;
+		color: $text-special-color-2;
+	}

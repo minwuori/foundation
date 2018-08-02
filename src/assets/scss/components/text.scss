@@ -1,11 +1,19 @@
-p {
-	padding-left: $text-padding-left;
-	padding-right: $text-padding-right;
-	padding-bottom: 10px;
+
+.text-special-21px-color1 {
+	color:  $text-special-color-1;
+	font-size: 21px;
+}
+.text-special-24px-color1 {
+	color:  $text-special-color-1;
+	font-size: 24px;
 }
 
-.text-special {
-	color: $text-special-color;
-	font-size: $text-special-size;
-}
 
+.text-special-21px-color2 {
+	color:  $text-special-color-2;
+	font-size: 21px;
+}
+.text-special-24px-color2 {
+	color:  $text-special-color-2;
+	font-size: 24px;
+}

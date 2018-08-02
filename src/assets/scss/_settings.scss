@@ -11,10 +11,44 @@
 //   6. Callout
 //   7. Menu
 //   8. Thumbnail
+//color
+$blue: #26a9e0;
+$dark-blue: #0060ae;
+$orange: #F05A22;
+$red: #ec1746;
+$gray: #808080;
+$black: #000000;
+$white: #ffffff;
+$green: #8bc53f;
 
 
 
-$primary-color: #2199e8;
+//-->header
+$header-background-color: $blue;
+$header-login-color: $white;
+$header-site-color: $gray;
+//<--header
+
+//-->menu
+$menu-background-color: $white;
+$menu-text-color: $blue;
+//<--menu
+
+//-->text
+ $text-special-color-1: $orange;
+ $text-special-color-2: $blue;
+//<--text
+
+//-->book-block
+$block-caption-size: 21px;
+$block-caption-color: $blue;
+$book-caption-size: 16px;
+$book-block-button-color: $green; 
+//<--book-block
+
+// 1. Global
+// ---------
+$primary-color: #26a9e0;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -25,16 +59,16 @@ $dark-gray: #8a8a8a;
 $black: #000000;
 $white: #ffffff;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 600px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 40px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 20px;
+$global-padding: 16px;
 $global-margin: 0px;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width + $global-gutter;
+$global-breakpoint: $global-width ;
 
 // 2. Grid
 // -------
@@ -108,7 +142,7 @@ $button-color: $white;
 $button-color-alt: $medium-gray;
 $button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $blue;
+$button-background: $primary-color;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;

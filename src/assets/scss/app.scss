@@ -1,6 +1,7 @@
 @import 'settings';
 @import 'foundation-emails';
 
+// переменные для шаблонов
 @import 'template/template';
 
 //мои компоненты
@@ -10,3 +11,4 @@
 @import 'components/text';
 @import 'components/video';
 @import 'components/book-block';
+@import 'components/condition';
