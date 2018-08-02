@@ -1,0 +1,52 @@
+p {
+	&.block-caption {
+		padding-left: 0;
+		font-size: $block-caption-size;
+		color: $block-caption-color;
+	}
+	&.book-caption {
+		padding-left: 0;
+		font-size: $book-caption-size;
+	}
+	&.annotation {
+		padding-left: 0;
+	}
+}
+
+p {
+	&.block-caption-right {
+		padding-right: 0;
+		padding-left: 20px;
+		font-size: $block-caption-size;
+		color: $block-caption-color;
+	}
+	&.book-caption-right {
+		padding-right: 0;
+		padding-left: 20px;
+		font-size: $book-caption-size;
+	}
+	&.annotation-right {
+		padding-right: 0;
+		padding-left: 20px;
+	}
+}
+
+ table.button.book-block-button table td  {
+    text-align: left;
+    color: #ffffff;
+    background: $book-block-button-color;
+    border-radius: $button-radius;
+}
+
+ table.book-block-button-right table td  {
+ 	text-align: left;
+    color: #ffffff;
+    background: $green;
+    border-radius: $button-radius;
+
+}
+
+.columns.book-block-description-right {
+	    padding-left: 40px;
+	    padding-right: 0;
+}

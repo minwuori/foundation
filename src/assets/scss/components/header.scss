@@ -1,0 +1,68 @@
+//color
+$blue: #26a9e0;
+$dark-blue: #0060ae;
+$orange: #F05A22;
+$red: #ec1746;
+$gray: #808080;
+$black: #000000;
+$white: #ffffff;
+$green: #8bc53f;
+
+
+// 1. Global
+// ---------
+//-->header
+$header-background-color: $blue;
+$header-login-color: $white;
+$header-site-color: $gray;
+//<--header
+
+//-->Menu
+$menu-background-color: $white;
+$menu-text-color: $blue;
+//<--menu
+
+//-->text
+ $text-padding-left: 24px;
+ $text-padding-right: 24px;
+ $text-special-color: $orange;
+ $text-special-size: 21px ;
+//<--text
+
+//-->book-block
+$block-caption-size: 21px;
+$block-caption-color: $blue;
+$book-caption-size: 16px;
+$book-block-button-color: $green; 
+//<--book-block
+
+
+
+
+
+
+a {
+	&.header__login, &.header__site {
+		text-decoration: underline;
+		font-size: 14px;
+	}
+}
+
+a.header__login {
+	color: $header-login-color;
+	 
+}
+
+a.header__site {
+	color: $header-site-color;
+	
+}
+
+.wrapper.head {
+  background: $header-background-color;
+  border-radius: 10px 10px 0 0;
+}
+
+.logo {
+	padding-left: 24px;
+}

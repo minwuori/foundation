@@ -13,8 +13,6 @@
 //   8. Thumbnail
 
 
-// 1. Global
-// ---------
 
 $primary-color: #2199e8;
 $secondary-color: #777777;
@@ -24,16 +22,16 @@ $alert-color: #ec5840;
 $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$black: #000000;
+$white: #ffffff;
 $pre-color: #ff6908;
 $global-width: 580px;
 $global-width-small: 95%;
 $global-gutter: 16px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
-$global-margin: 16px;
+$global-padding: 20px;
+$global-margin: 0px;
 $global-radius: 3px;
 $global-rounded: 500px;
 $global-breakpoint: $global-width + $global-gutter;
@@ -69,8 +67,8 @@ $h3-font-size: 28px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$header-margin-bottom: 0px;
+$paragraph-margin-bottom: 0px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -79,11 +77,11 @@ $text-padding: 10px;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
 $subheader-font-weight: $global-font-weight;
-$subheader-margin-top: 4px;
-$subheader-margin-bottom: 8px;
+$subheader-margin-top: 0px;
+$subheader-margin-bottom: 0px;
 $hr-width: $global-width;
 $hr-border: 1px solid $black;
-$hr-margin: 20px auto;
+$hr-margin: 0px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
 $anchor-color-visited: $anchor-color;
@@ -108,9 +106,9 @@ $button-font-size: (
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
-$button-font-weight: bold;
+$button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $primary-color;
+$button-background: $blue;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
@@ -131,8 +129,8 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 // 7. Menu
 // -------
 
-$menu-item-padding: 10px;
-$menu-item-gutter: 10px;
+$menu-item-padding: 0px;
+$menu-item-gutter: 0px;
 $menu-item-color: $primary-color;
 
 // 8. Thumbnail
