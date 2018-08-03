@@ -1,0 +1,24 @@
+.wrapper.footer {
+  background: $footer-background-color;
+  border-radius: 0 0 10px 10px;
+ }
+
+a.social {
+  display: inline-block;
+}
+
+.social-text {
+  color: $white;
+  vertical-align: middle;
+  font-size: 14px;
+}
+th.large-7.last.social-image {
+  padding: 24px 40px 24px 0;  
+  
+}
+
+th.large-5.first.social {
+  padding-right: 0;
+  padding-top: 35px;
+  
+}

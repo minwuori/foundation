@@ -9,5 +9,11 @@ table.menu td.menu-item a, table.menu th.menu-item a {
 
 table.menu td.menu-item, table.menu th.menu-item{
 	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 40px;
+	
+}
+
+table.menu {
+	border-bottom: 1px solid $menu-border-bottom;
 }
