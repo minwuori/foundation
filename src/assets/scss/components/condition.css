@@ -1,5 +1,6 @@
 th.large-1.condition-image {
 	padding-right: 0px;
+	width: $condition-width;
 }
 
 .condition-bold {

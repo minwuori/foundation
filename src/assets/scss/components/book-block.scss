@@ -6,10 +6,10 @@
     border-radius: $button-radius;
 }
 
- table.book-block-button-right table td  {
+ table.button.book-block-button-right table td  {
  	text-align: left;
     color: #ffffff;
-    background: $green;
+    background: $book-block-button-color;
     border-radius: $button-radius;
 
 }
@@ -43,5 +43,5 @@ th.large-4.first.book-image-left {
 
 th .block-caption {
 		font-size: $block-caption-size;
-		color: $text-special-color-2;
+		color: $blue;
 	}

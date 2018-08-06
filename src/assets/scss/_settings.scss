@@ -11,7 +11,9 @@
 //   6. Callout
 //   7. Menu
 //   8. Thumbnail
-//color
+
+
+//MyColor
 $blue: #26a9e0;
 $dark-blue: #0060ae;
 $orange: #F05A22;
@@ -21,9 +23,6 @@ $lightgray: #b3b3b3;
 $black: #000000;
 $white: #ffffff;
 $green: #8bc53f;
-
-
-
 
 //-->header
 $header-background-color: $blue;
@@ -49,8 +48,13 @@ $book-caption-size: 16px;
 $book-block-button-color: $green; 
 //<--book-block
 
+$condition-width: 20px;
+
+//-->button
 $button-bonus: $blue;
-$button-sale: $red;
+$button-another: $red;
+$button-width: 224px;
+//<--button
 
 //footer
 $footer-background-color: $blue;
@@ -139,7 +143,7 @@ $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
   default: 8px 16px 8px 16px,
-  large: 15px 50px 15px 50px,
+  large: 15px 35px 15px 35px,
 );
 $button-font-size: (
   tiny: 10px,

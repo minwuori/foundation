@@ -1,39 +1,23 @@
- table.button-bonus table td  {
+ table.button.button-bonus table td  {
  	text-align: center;
+    font-size: 16px;
     color: #ffffff;
     background: $button-bonus;
-	border: 2px solid $button-bonus;
-    border-radius: $button-radius;
     
     &:hover{
         text-align: center;
         color: #ffffff;
         background: $button-bonus;
-        border: 2px solid $button-bonus;
-        border-radius: $button-radius;
     }
-
 }
 
-th span.text18 {
-	font-weight: bold;
-    line-height: 1.2;
-    font-size: 20px;
-    color: $gray;
-    text-align: right;
-    vertical-align: middle;
-}
-
- table.button-sale table td  {
+ table.button-another table td  {
  	text-align: center;
     color: #ffffff;
-    background: $button-sale;
-	border: 2px solid $button-sale;
-    border-radius: $button-sale;
+    background: $button-another;
+    
     &:hover{
-    	background: $button-sale;
-		border: 2px solid $button-sale;
-    	border-radius: $button-sale;
+    	background: $button-another;
     }
 
 }
