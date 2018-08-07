@@ -6,3 +6,8 @@ th.large-1.condition-image {
 .condition-bold {
 	font-weight: bold;
 }
+
+th.condition-onlyForYou {
+font-size:13px; 
+color: $gray;
+}

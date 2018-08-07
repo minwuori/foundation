@@ -1,23 +1,26 @@
  table.button.button-bonus table td  {
- 	text-align: center;
-    font-size: 16px;
-    color: #ffffff;
+    text-align: center;
+    color: $button-color;
     background: $button-bonus;
-    
-    &:hover{
+    width: $button-width-bonus;
+ 	&:hover{
         text-align: center;
-        color: #ffffff;
+        color: $button-color;
         background: $button-bonus;
+        width: $button-width-bonus;
     }
 }
 
- table.button-another table td  {
- 	text-align: center;
-    color: #ffffff;
-    background: $button-another;
-    
+ table.button-sale table td  {
+    text-align: center;
+    color: $button-color;
+    background: $button-sale;
+    width: $button-width-sale;
     &:hover{
-    	background: $button-another;
+     	text-align: center;
+        color: $button-color;
+        background: $button-sale;
+        width: $button-width-sale;
     }
-
 }
+

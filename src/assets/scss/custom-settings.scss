@@ -37,20 +37,10 @@ $condition-width: 20px;
 
 //-->button
 $button-bonus: $blue;
-$button-another: $red;
-$button-width: 224px;
-$button-padding: (
-  tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
-  large: 15px 35px 15px 35px,
-);
-$button-font-size: (
-  tiny: 10px,
-  small: 12px,
-  default: 16px,
-  large: 16px,
-);
+$button-width-bonus: 224px;
+$button-sale: $red;
+$button-width-sale: 200px;
+
 //<--button
 
 //footer

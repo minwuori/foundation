@@ -33,7 +33,7 @@ $global-width-small: 95%;
 $global-gutter: 40px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
+$global-padding: 0;
 $global-margin: 0px;
 $global-radius: 3px;
 $global-rounded: 500px;
@@ -96,7 +96,7 @@ $stat-font-size: 40px;
 // ---------
 
 $button-padding: (
-  tiny: 4px 8px 4px 8px,
+  tiny: 0 0 0 0,
   small: 5px 10px 5px 10px,
   default: 8px 16px 8px 16px,
   large: 15px 35px 15px 35px,

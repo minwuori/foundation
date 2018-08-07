@@ -1,0 +1,43 @@
+{{> preheader
+	preheader-theme ="Специально для вас скидка на любые книги!"
+}}
+<spacer size="24"></spacer>
+
+<container class="head">
+	{{> header-white}}
+
+	<container>	
+		{{> menu}}
+
+		<container>
+			{{> coupon-summer
+				coupon-text= "* Купон действителен с 24 по 27 июля 2018 г."
+			}}
+		
+					
+			<spacer size="25"></spacer>
+			<row>
+				<columns>
+					<b>Только с 24 по 27 июля </b>
+					специально для вас <b>Т10% скидка</b>на любые книги в интернет-магазине chitai-gorod.ru. 
+					<spacer size="2"></spacer>
+					Книг много не бывает!
+				</columns>
+			</row>
+			
+			<spacer size="25"></spacer>
+			{{> button-image
+				link="https://www.chitai-gorod.ru/"
+				image="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/1266.jpg"
+			}}
+	
+			<spacer size="25"></spacer>
+			{{> condition-onlyForYou
+				date="9 августа"}}
+			{{> footer}}
+			<spacer size="20"></spacer>
+			{{> unsubscribe}}
+			
+		</container>
+	</container>
+</container>
