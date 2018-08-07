@@ -6,13 +6,11 @@ a {
 }
 
 a.header__login {
-	color: $header-login-color;
-	 
+	color: $header-login-color;	 
 }
 
 a.header__site {
-	color: $header-site-color;
-	
+	color: $header-site-color;	
 }
 
 .head {
@@ -20,3 +18,15 @@ a.header__site {
   border-radius: 10px 10px 0 0;
 }
 
+.head-white {
+  background: $white;
+  border-radius: 10px 10px 0 0;
+}
+
+a.header-white__login {
+	color: $gray;	 
+}
+
+a.header-white__site {
+	color: $blue;	
+}

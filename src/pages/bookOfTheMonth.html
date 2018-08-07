@@ -1,33 +1,21 @@
-{{>preheader
+---
+
+---
+
+{{> preheader
 		preheader-theme ="–10% на книгу месяца в августе + 5 книг для разнообразного чтения"
-	}}
+}}
 <spacer size="24"></spacer>
 
 <container class="head">
-	{{>header
-		logo-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/2056.png"
-	}}
-
+	{{> header}}
 
 	<container>	
-		{{>menu 
-			menu-item-href1="https://www.chitai-gorod.ru/catalog/books/"
-			menu-item-text1="Книги"
-
-			menu-item-href2="https://www.chitai-gorod.ru/catalog/kanctovar/"
-			menu-item-text2="Канцтовары"
-
-			menu-item-href3="https://www.chitai-gorod.ru/catalog/souvenirs/"
-			menu-item-text3="Сувениры"
-
-			menu-item-href4="https://www.chitai-gorod.ru/collections/"
-			menu-item-text4="Что еще почитать?"
-		}}
-
+		{{> menu}}
 
 		<container>
 			<spacer size="40"></spacer>
-				{{>banner
+				{{> banner
 					banner-image-href="https://www.chitai-gorod.ru/catalog/books/"
 					banner-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3109.png"
 				}}
@@ -42,14 +30,10 @@
 					</columns>
 				</row>
 			
-
-			
-				{{>banner
+				{{> banner
 					banner-image-href="https://www.chitai-gorod.ru/catalog/books/"
 					banner-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3330.gif"
 				}}
-			
-
 			
 				<row>
 					<columns>
@@ -62,12 +46,11 @@
 					</columns>
 				</row>
 
-				{{>video
+				{{> video
 					video-image-url="https://img.youtube.com/vi/UE5iIUBBoOY/default.jpg"
 					video-link="https://www.youtube.com/watch?v=UE5iIUBBoOY&feature=youtu.be&"
 					video-name="Подробный видеообзор книги Гузель Яхиной"
 				}}
-
 
 				<row>
 					<columns>
@@ -76,7 +59,7 @@
 					</columns>
 				</row>
 		
-				{{>book-block-left
+				{{> book-block-left
 					book-link="https://www.chitai-gorod.ru/catalog/book/1054793/"
 					book-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3331.png"
 					block-caption="Читать срочно"
@@ -86,7 +69,7 @@
 				}}
 				
 				<spacer size="40"></spacer>
-				{{>book-block-right
+				{{> book-block-right
 					book-link="https://www.chitai-gorod.ru/catalog/book/1047325/"
 					book-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3332.png"
 					block-caption="Читать нежно"
@@ -96,7 +79,7 @@
 				}}
 								
 				<spacer size="40"></spacer>
-				{{>book-block-left
+				{{> book-block-left
 					book-link="https://www.chitai-gorod.ru/catalog/book/1055266/"
 					book-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3333.png"
 					block-caption="Читать вкусно"
@@ -106,7 +89,7 @@
 				}}
 				
 				<spacer size="40"></spacer>
-				{{>book-block-right
+				{{> book-block-right
 					book-link="https://www.chitai-gorod.ru/catalog/book/1008411/"
 					book-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3334.png"
 					block-caption="Читать снова"
@@ -116,7 +99,7 @@
 				}}
 				
 				<spacer size="40"></spacer>
-				{{>book-block-left
+				{{> book-block-left
 					book-link="https://www.chitai-gorod.ru/catalog/book/1051410/"
 					book-image-url="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3335.png"
 					block-caption="Читать вместе"
@@ -133,14 +116,14 @@
 					</columns>
 				</row>
 
-				{{>condition
+				{{> condition
 					condition-image="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3336.png"
 					condition-text1="В интернет-магазине*** ввести промокод "	
 					condition-bold="«летопродолжается»"
 					condition-text2=" в Корзине при оформлении заказа"
 				}}
 
-				{{>condition
+				{{> condition
 					condition-image="https://m.gr-cdn-e.eu/chitaigorod/1/1/photos/3337.png"
 					condition-text1="В магазинах сети показать штрихкод из письма с экрана телефона или в распечатанном виде и предъявить бонусную карту."
 				}}
@@ -158,7 +141,7 @@
 				<row>
 					<columns>
 						<center>
-						{{>button
+						{{> button
 							button-link="https://www.chitai-gorod.ru/profile/discount/"
 							button-bonus="Бонусы уже ждут :)"
 						}}
@@ -175,14 +158,14 @@
 				</row>
 				
 				<spacer size="25"></spacer>
-				{{>info
+				{{> info
 					text1="* Акция действует в период с 26.07.2018 г. по 09.08.2018 г. включительно в розничных магазинах сети «Читай-город» и в Интернет-магазине (www.chitai-gorod.ru, ООО «Новый Книжный Центр», г. Москва, Огородный проезд, д. 20, стр. 27, пом. 14, ОГРН 102770028276). Принять участие в Акции могут только держатели «Карт Любимого Покупателя». Начисление бонусов за товар, приобретенный в рамках Акции, не производится. Скидка по Акции не суммируется со скидками по другим акциям, со скидкой по дисконтной карте «Читай-город» старого образца, корпоративным и партнерским картам. Товары продаются отдельно. Количество товара ограничено. Оплата товара, приобретённого по Акции, подарочными картами возможна только в случае оплаты товара, приобретённого по Акции, в розничных магазинах сети «Читай-город». Вся информация об Акции, в частности, информация о правилах и сроках проведения Акции, об организаторе Акции, иная информация, предоставление которой в соответствии действующим законодательством РФ является обязательным, предоставляется по телефону 8-800-444-8-444, а также в розничных магазинах-участниках. "
 					text2="** Книга месяца среди книг, реализуемых в августе 2018 г. в сети магазинов «Читай-город» (розничные магазины и Интернет-магазин (ООО «Новый Книжный Центр», г. Москва, Огородный проезд, д. 20, стр. 27, пом. 14, ОГРН 1027700282763)) "
 					text3="*** www.chitai-gorod.ru, ООО «Новый Книжный Центр», г. Москва, Огородный проезд, д. 20, стр. 27, пом. 14, ОГРН 1027700282763."
 				}}
-				{{>footer}}
+				{{> footer}}
 				<spacer size="20"></spacer>
-				{{>unsubscribe}}
+				{{> unsubscribe}}
 			
 		</container>
 	</container>
