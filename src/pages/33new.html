@@ -7,65 +7,52 @@ subject: 33 книжные новинки
 }}
 <spacer size="24"></spacer>
 
-<container class="header-radius">
-  {{> header}}
-  {{> menu}}
-  {{> banner
-      link="https://www.chitai-gorod.ru/BooksOfTheWeek/"
-      image="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3395.jpg"
-    }}
-  <container>   
-    <spacer size="30"></spacer>
-    {{> button-image
-        image="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3396.png"
-    }}
-  </container> 
-  <container> 
-    <row>
-      <columns>
-        <spacer size="20"></spacer>
-          В августе выходит много интересных книг. На этой неделе из них мы выбрали 33 новинки и дарим вам <b>скидку 10%*</b> на любые книги из подборки. Чтобы получить её, нужно:
-      </columns>
-    </row>
-  </container> 
-  <container> 
-    <spacer size="20"></spacer>
-    {{> condition
-      image="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3315.png"
-      text1=" В интернет-магазине ввести промокод " 
-      bold="«новинки»"
-      text2=" в Корзине при оформлении заказа"
-    }}  
-  </container>
-  <container> 
-    <spacer size="20"></spacer>
-    <row>
-      <columns>
-        <center>
-        <span style="color:#F05A22">Счастливого чтения!</span>
-        </center>
-      </columns>
-    </row>
-  </container>  
-  <container> 
-    <spacer size="25"></spacer>
-    {{> info
-      text1="*Акция действует в период с 30.07.2018 г. по 05.08.2018 г. включительно в Интернет-магазине (www.chitai-gorod.ru, ООО «Новый Книжный Центр», г. Москва, Огородный проезд, д. 20, стр. 27, пом. 14, ОГРН 102770028276). Начисление бонусов за товар, приобретенный в рамках Акции, не производится. Скидка по Акции не суммируется со скидками по другим акциям, со скидкой по дисконтной карте «Читай-город» старого образца, корпоративным и партнерским картам. Количество товара ограничено. Оплата товара, приобретённого по Акции, подарочными картами возможна только в случае оплаты товара, приобретённого по Акции, в розничных магазинах сети «Читай-город». Вся информация об Акции, в частности, информация о правилах и сроках проведения Акции, об организаторе Акции, иная информация, предоставление которой в соответствии действующим законодательством РФ является обязательным, предоставляется по телефону 8-800-444-8-444, а также в розничных магазинах-участниках."
-    }}
-  </container> 
-  <container>
-    <row>
-      <columns>
-      <center>
-        <img style="width: 40px " src="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3397.png">
-      </center>
-      </columns>
-    </row>
-    <spacer size="30"></spacer>
-   
-    
-  {{> footer}}
-  </container>
-  <spacer size="20"></spacer>
-  {{> unsubscribe}}
+{{> header}}
+{{> menu}}
+{{> banner
+    link="https://www.chitai-gorod.ru/BooksOfTheWeek/"
+    image="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3395.jpg"
+}}
+
+{{> button-image
+    image="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3396.png"
+    link="https://www.chitai-gorod.ru/BooksOfTheWeek/"
+}}
+
+<container> 
+  <row>
+    <columns>
+        В августе выходит много интересных книг. На этой неделе из них мы выбрали 33 новинки и дарим вам <b>скидку 10%*</b> на любые книги из подборки. Чтобы получить её, нужно:
+    </columns>
+  </row>
 </container> 
+
+{{> condition
+  image="http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3315.png"
+  text1=" В интернет-магазине ввести промокод " 
+  bold="«новинки»"
+  text2=" в Корзине при оформлении заказа"
+}}  
+
+<container> 
+  <spacer size="60"></spacer>
+  <row>
+    <columns>
+      <center>
+      <span style="color:#F05A22">Счастливого чтения!</span>
+      </center>
+    </columns>
+  </row>
+</container>  
+
+{{> info
+  text1="*Акция действует в период с 30.07.2018 г. по 05.08.2018 г. включительно в Интернет-магазине (www.chitai-gorod.ru, ООО «Новый Книжный Центр», г. Москва, Огородный проезд, д. 20, стр. 27, пом. 14, ОГРН 102770028276). Начисление бонусов за товар, приобретенный в рамках Акции, не производится. Скидка по Акции не суммируется со скидками по другим акциям, со скидкой по дисконтной карте «Читай-город» старого образца, корпоративным и партнерским картам. Количество товара ограничено. Оплата товара, приобретённого по Акции, подарочными картами возможна только в случае оплаты товара, приобретённого по Акции, в розничных магазинах сети «Читай-город». Вся информация об Акции, в частности, информация о правилах и сроках проведения Акции, об организаторе Акции, иная информация, предоставление которой в соответствии действующим законодательством РФ является обязательным, предоставляется по телефону 8-800-444-8-444, а также в розничных магазинах-участниках."
+}}
+
+{{> censure
+  image = "http://multimedia.gr.chitai-gorod.ru/chitaigorod/1/1/photos/3397.png" }}
+
+{{> footer}}
+
+<spacer size="20"></spacer>
+{{> unsubscribe}}
