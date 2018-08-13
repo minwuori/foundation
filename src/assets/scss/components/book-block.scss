@@ -4,7 +4,7 @@
     color: #ffffff;
     background: $book-block-button-color;
     border-radius: $button-radius;
-    border-color: 2px solid $book-block-button-color;
+    border-color: $book-block-button-color;
 }
 
  table.button.book-block-button-right table td  {
@@ -16,11 +16,11 @@
 
 }
 
-th.large-8.last.columns.book-description-left{
+th.large-7.last.columns.book-description-left{
     padding-left: 40px;
     padding-right: 0;
 }
-th.large-8.last.columns.book-description-right{
+th.large-7.last.columns.book-description-right{
     padding-left: 0;
     padding-right: 40px;
 }
@@ -34,11 +34,12 @@ img.book-image {
 	width: 200px;
 	max-width: 200px;
 }
-th.large-4.first.book-image-right {
+th.large-5.first.book-image-right {
 	padding-left: 0;
+    padding-right: 0;
 }
 
-th.large-4.first.book-image-left {
+th.large-5.first.book-image-left {
 	padding-right: 0;
 	padding-left: 0;
 }
