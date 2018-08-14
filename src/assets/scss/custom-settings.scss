@@ -1,9 +1,10 @@
+
 //MyColor
 $blue: #26a9e0;
 $dark-blue: #0060ae;
 $orange: #F05A22;
 $red: #ec1746;
-$gray: #808080;
+$gray: #999999;
 $lightgray: #b3b3b3;
 $black: #000000;
 $white: #ffffff;
@@ -40,10 +41,10 @@ $button-bonus: $blue;
 $button-width-bonus: 224px;
 $button-sale: $red;
 $button-width-sale: 200px;
-
+$primary-color: $button-bonus;
+$secondary-color: $button-sale;
+$success-color: $book-block-button-color;
 //<--button
 
 //footer
 $footer-background-color: $blue;
-
-$line-color: 1px solid $gray;

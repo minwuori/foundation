@@ -1,10 +1,8 @@
-
  table.button.book-block-button table td  {
     text-align: left;
     color: #ffffff;
     background: $book-block-button-color;
     border-radius: $button-radius;
-    border-color: $book-block-button-color;
 }
 
  table.button.book-block-button-right table td  {
@@ -15,6 +13,7 @@
     border-color: $book-block-button-color;
 
 }
+
 
 th.large-7.last.columns.book-description-left{
     padding-left: 40px;
@@ -45,6 +44,6 @@ th.large-5.first.book-image-left {
 }
 
 th .block-caption {
-		font-size: $block-caption-size;
-		color: $blue;
-	}
+	font-size: $block-caption-size;
+	color: $blue;
+}
