@@ -1,6 +1,7 @@
 .columns {
 	.unsubscribe {
 		padding: 30px 0;
+		background: transparent;
 	}
 	.unsubscribe-text {
 		color: $gray;
@@ -8,13 +9,13 @@
 		line-height: 13px;
 	}
 	.site {
-	color: $blue;
-	text-decoration: none; 
+		color: $blue;
+		text-decoration: none; 
 	}
 
 	.here {
-	color: $gray;
-	text-decoration: underline;
+		color: $gray;
+		text-decoration: underline;
 	}
 }
 
