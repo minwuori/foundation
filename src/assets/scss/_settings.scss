@@ -12,12 +12,62 @@
 //   7. Menu
 //   8. Thumbnail
 
+//MyColor
+$blue: #26a9e0;
+$dark-blue: #0060ae;
+$orange: #F05A22;
+$lightorange: #FAA619;
+$red: #ec1746;
+$gray: #999999;
+$lightgray: #b3b3b3;
+$black: #000000;
+$white: #ffffff;
+$green: #8bc53f;
+$violet: #74489d;
+
+//-->header
+$header-background-color: $blue;
+$header-login-color: $white;
+$header-site-color: $lightgray;
+//<--header
+
+//-->menu
+$menu-background-color: $white;
+$menu-text-color: $black;
+$menu-border-bottom: $gray;
+//<--menu
+
+//-->text
+ $text-special-color-1: $orange;
+ $text-special-color-2: $blue;
+//<--text
+
+//-->book-block
+$block-caption-size: 21px;
+$block-caption-color: $blue;
+$book-caption-size: 16px;
+$book-block-button-color: $green; 
+//<--book-block
+
+$condition-width: 20px;
+
+//-->button
+$button-bonus: $orange;
+$button-width-bonus: 224px;
+$button-sale: $red;
+$button-width-sale: 200px;
+//<--button
+
+//footer
+$footer-background-color: $blue;
 
 
 
 // 1. Global
 // ---------
-
+$primary-color: $button-bonus;
+$secondary-color: $button-sale;
+$success-color: $book-block-button-color;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
@@ -52,7 +102,7 @@ $block-grid-gutter: $global-gutter;
 
 // 4. Typography
 // -------------
-$new-color: #26a9e0;
+
 $global-font-color: $black;
 $body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
@@ -84,9 +134,9 @@ $hr-width: $global-width;
 $hr-border: 1px solid $black;
 $hr-margin: 0px auto;
 $anchor-text-decoration: none;
-$anchor-color: $new-color;
+$anchor-color: $primary-color;
 $anchor-color-visited: $anchor-color;
-$anchor-color-hover: darken($new-color, 10%);
+$anchor-color-hover: darken($primary-color, 10%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 
@@ -109,7 +159,7 @@ $button-color: $white;
 $button-color-alt: $medium-gray;
 $button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $new-color;
+$button-background: $primary-color;
 $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
@@ -122,8 +172,8 @@ $callout-background-fade: 85%;
 $callout-padding: 10px;
 $callout-margin-bottom: $global-margin;
 $callout-border: 1px solid darken($callout-background, 20%);
-$callout-border-secondary: 1px solid darken(#F05A22, 20%);
-$callout-border-success: 1px solid darken(#8bc53f, 20%);
+$callout-border-secondary: 1px solid darken($secondary-color, 20%);
+$callout-border-success: 1px solid darken($success-color, 20%);
 $callout-border-warning: 1px solid darken($warning-color, 20%);
 $callout-border-alert: 1px solid darken($alert-color, 20%);
 
@@ -132,7 +182,7 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 
 $menu-item-padding: 10px;
 $menu-item-gutter: 0px;
-$menu-item-color: $new-color;
+$menu-item-color: $primary-color;
 
 // 8. Thumbnail
 // ------------
@@ -140,7 +190,7 @@ $menu-item-color: $new-color;
 $thumbnail-border: solid 4px $white;
 $thumbnail-margin-bottom: $global-margin;
 $thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
-$thumbnail-shadow-hover: 0 0 6px 1px rgba($new-color, 0.5);
+$thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
