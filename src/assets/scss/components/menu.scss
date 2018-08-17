@@ -1,0 +1,19 @@
+.menu {
+	background: $menu-background-color;
+}
+
+table.menu td.menu-item a, table.menu th.menu-item a {
+    color: $menu-text-color;
+    font-size: 14px;
+}
+
+table.menu td.menu-item, table.menu th.menu-item{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	
+}
+
+table.menu {
+	border-bottom: 1px solid $menu-border-bottom;
+}

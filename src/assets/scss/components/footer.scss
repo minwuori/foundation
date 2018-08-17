@@ -1,0 +1,27 @@
+.footer-radius {
+  background: $footer-background-color;
+  border-radius: 0 0 10px 10px;
+ }
+
+a.social {
+  display: inline-block;
+}
+
+
+.social-text {
+  color: $white;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+th.large-7.last.social-image {
+  padding-top: 25px;  
+  padding-left: 0px;
+  padding-bottom: 25px;
+  vartical-align: middle;
+}
+
+th.large-5.first.social {
+  padding-right: 0;
+  padding-top: 37px;
+}

@@ -1,0 +1,63 @@
+//change background coupon-number -->
+th.large-4.coupon-number {
+	whidth: 175px;
+	padding: 0;
+	vertical-align: middle;
+	
+	&.summer {
+		background: #0f8786;
+	}
+	
+	&.autumn {
+		background: #990000;
+	}
+
+	&.winter {
+		background: #0c6602;
+	}
+
+	&.spring {
+		background: #990048;
+	}
+}
+//<--
+
+th.large-6.coupon-image {
+	width: 310px;
+	padding: 0;
+}
+
+
+th span.coupon-text {
+	color: $white;
+	font-size: 11px; 
+	vertical-align: top; 
+	text-align: center;  
+	
+}
+
+th span.coupon-number-color {
+	color: $white;
+}
+
+//change background coupon -->
+.coupon-summer {
+	background: #43d4d3; 
+	padding: 0;
+}
+
+.coupon-spring {
+	background: #ee5ba0; 
+	padding: 0;
+}
+
+.coupon-winter {
+	background: #8bc53f; 
+	padding: 0;
+}
+
+.coupon-autumn {
+	background: #f05a22; 
+	padding: 0;
+}
+//<--

@@ -1,0 +1,49 @@
+ table.button.book-block-button table td  {
+    text-align: left;
+    color: #ffffff;
+    background: $book-block-button-color;
+    border-radius: $button-radius;
+}
+
+ table.button.book-block-button-right table td  {
+ 	text-align: left;
+    color: #ffffff;
+    background: $book-block-button-color;
+    border-radius: $button-radius;
+    border-color: $book-block-button-color;
+
+}
+
+
+th.large-7.last.columns.book-description-left{
+    padding-left: 40px;
+    padding-right: 0;
+}
+th.large-7.last.columns.book-description-right{
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.columns.book-image-right.book-image {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img.book-image {
+	width: 200px;
+	max-width: 200px;
+}
+th.large-5.first.book-image-right {
+	padding-left: 0;
+    padding-right: 0;
+}
+
+th.large-5.first.book-image-left {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+th .block-caption {
+	font-size: $block-caption-size;
+	color: $blue;
+}

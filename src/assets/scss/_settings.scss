@@ -12,31 +12,80 @@
 //   7. Menu
 //   8. Thumbnail
 
+//MyColor
+$blue: #26a9e0;
+$dark-blue: #0060ae;
+$orange: #F05A22;
+$lightorange: #FAA619;
+$red: #ec1746;
+$gray: #999999;
+$lightgray: #b3b3b3;
+$black: #000000;
+$white: #ffffff;
+$green: #8bc53f;
+$violet: #74489d;
+
+//-->header
+$header-background-color: $lightorange;
+$header-login-color: $white;
+$header-site-color: $white;
+//<--header
+
+//-->menu
+$menu-background-color: $white;
+$menu-text-color: $black;
+$menu-border-bottom: $white;
+//<--menu
+
+//-->text
+ $text-special-color-1: $orange;
+ $text-special-color-2: $blue;
+//<--text
+
+//-->book-block
+$block-caption-size: 21px;
+$block-caption-color: $blue;
+$book-caption-size: 16px;
+$book-block-button-color: $green; 
+//<--book-block
+
+$condition-width: 20px;
+
+//-->button
+$button-bonus: #ff0d0d;
+$button-width-bonus: 224px;
+$button-sale: $red;
+$button-width-sale: 200px;
+//<--button
+
+//footer
+$footer-background-color: $lightorange;
+
+
 
 // 1. Global
 // ---------
-
-$primary-color: #2199e8;
-$secondary-color: #777777;
-$success-color: #3adb76;
+$primary-color: $button-bonus;
+$secondary-color: $button-sale;
+$success-color: $book-block-button-color;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$black: #000000;
+$white: #ffffff;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 600px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 40px;
 $body-background: $light-gray;
 $container-background: $white;
-$global-padding: 16px;
-$global-margin: 16px;
+$global-padding: 0;
+$global-margin: 0px;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width + $global-gutter;
+$global-breakpoint: $global-width ;
 
 // 2. Grid
 // -------
@@ -63,14 +112,14 @@ $global-font-size: 16px;
 $body-line-height: $global-line-height;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
-$h1-font-size: 34px;
-$h2-font-size: 30px;
+$h1-font-size: 36px;
+$h2-font-size: 31px;
 $h3-font-size: 28px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$header-margin-bottom: 0px;
+$paragraph-margin-bottom: 0px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -79,11 +128,11 @@ $text-padding: 10px;
 $subheader-lineheight: 1.4;
 $subheader-color: $dark-gray;
 $subheader-font-weight: $global-font-weight;
-$subheader-margin-top: 4px;
-$subheader-margin-bottom: 8px;
+$subheader-margin-top: 0px;
+$subheader-margin-bottom: 0px;
 $hr-width: $global-width;
 $hr-border: 1px solid $black;
-$hr-margin: 20px auto;
+$hr-margin: 0px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
 $anchor-color-visited: $anchor-color;
@@ -95,20 +144,20 @@ $stat-font-size: 40px;
 // ---------
 
 $button-padding: (
-  tiny: 4px 8px 4px 8px,
+  tiny: 0 0 0 0,
   small: 5px 10px 5px 10px,
   default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+  large: 15px 30px 15px 30px,
 );
 $button-font-size: (
   tiny: 10px,
   small: 12px,
   default: 16px,
-  large: 20px,
+  large: 16px,
 );
 $button-color: $white;
 $button-color-alt: $medium-gray;
-$button-font-weight: bold;
+$button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
 $button-background: $primary-color;
 $button-border: 2px solid $button-background;
@@ -132,7 +181,7 @@ $callout-border-alert: 1px solid darken($alert-color, 20%);
 // -------
 
 $menu-item-padding: 10px;
-$menu-item-gutter: 10px;
+$menu-item-gutter: 0px;
 $menu-item-color: $primary-color;
 
 // 8. Thumbnail

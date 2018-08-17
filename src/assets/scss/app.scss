@@ -1,4 +1,18 @@
 @import 'settings';
 @import 'foundation-emails';
 
-@import 'template/template';
+@import 'custom-settings';
+//мои компоненты
+@import 'components/header';
+@import 'components/menu';
+@import 'components/banner';
+@import 'components/text';
+@import 'components/video';
+@import 'components/book-block';
+@import 'components/condition';
+@import 'components/button';
+@import 'components/info';
+@import 'components/footer';
+@import 'components/unsubscribe';
+@import 'components/preheader';
+@import 'components/coupon';

@@ -1,0 +1,13 @@
+th.large-1.condition-image {
+	padding-right: 0px;
+	width: $condition-width;
+}
+
+.condition-bold {
+	font-weight: bold;
+}
+
+th.condition-onlyForYou {
+font-size:13px; 
+color: $gray;
+}

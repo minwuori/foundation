@@ -1,0 +1,29 @@
+ table.button.button-bonus table td  {
+    text-align: center;
+    color: $button-color;
+    background: $button-bonus;
+    width: $button-width-bonus;
+ 	&:hover{
+        text-align: center;
+        color: $button-color;
+        background: $button-bonus;
+        width: $button-width-bonus;
+    }
+}
+
+ table.button-sale table td  {
+    text-align: center;
+    color: $button-color;
+    background: $button-sale;
+    width: $button-width-sale;
+    &:hover{
+     	text-align: center;
+        color: $button-color;
+        background: $button-sale;
+        width: $button-width-sale;
+    }
+}
+
+table.button table td a {
+    
+}

@@ -1,0 +1,34 @@
+a {
+	&.header__login, &.header__site {
+		text-decoration: underline;
+		font-size: 14px;
+	}
+}
+
+a.header__login {
+	color: $header-login-color;	 
+}
+
+a.header__site {
+	color: $header-site-color;	
+}
+
+.header-radius {
+  background: $header-background-color;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 10px;
+  
+}
+
+.head-white {
+  background: $white;
+  border-radius: 10px 10px 0 0;
+}
+
+a.header-white__login {
+	color: $gray;	 
+}
+
+a.header-white__site {
+	color: $blue;	
+}
