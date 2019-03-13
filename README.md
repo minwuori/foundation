@@ -1,3 +1,7 @@
+<a href="https://minwuori.github.io/foundation/dist/bookOfTheMonth.html>bookOfTheMonth</a> <br />
+<a href="https://minwuori.github.io/foundation/dist/33new.html>33new</a> <br />
+<a href="https://minwuori.github.io/foundation/dist/onlyForYou.html>onlyForYou</a> <br />
+
 # Foundation for Emails Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-emails-template/dev-status.svg)](https://david-dm.org/zurb/foundation-emails-template#info=devDependencies)
